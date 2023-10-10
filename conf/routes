@@ -1,0 +1,5 @@
+# Routes
+# ~~~~
+
+# Evaluation request
+GET     /evaluation         controllers.SpeechEvaluationController.evaluate(url: List[String])

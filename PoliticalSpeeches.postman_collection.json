@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "35869015-2510-4010-bc92-de2239cd649d",
+		"name": "PoliticalSpeeches",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1624531"
+	},
+	"item": [
+		{
+			"name": "Evaluation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/evaluation?url=https://fid-recruiting.s3-eu-west-1.amazonaws.com/politics.csv",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"evaluation"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https://fid-recruiting.s3-eu-west-1.amazonaws.com/politics.csv"
+						},
+						{
+							"key": "url",
+							"value": "https://fid-recruiting.s3-eu-west-1.amazonaws.com/politics.csv",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
